@@ -1,6 +1,6 @@
 class PigLatinizer
   
-  def piglatinize(text="Once upon a time and a very good time it was there was a moocow coming down along the road and this moocow that was coming down along the road met a nice little boy named baby tuckoo")
+  def piglatinize(text)
     str_arr = text.split
     binding.pry
     new_str_arr = []
