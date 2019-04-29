@@ -1,6 +1,7 @@
 class PigLatinizer
   
   def piglatinize(text)
+    puts "text = #{text}"
     str_arr = text.split
     binding.pry
     new_str_arr = []
