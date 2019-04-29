@@ -2,6 +2,7 @@ class PigLatinizer
   
   def piglatinize(text)
     str_arr = text.split
+    binding.pry
     new_str_arr = []
     for x in 0...str_arr.size do
       index = str_arr[x].downcase.index(/[aeiou]/)
